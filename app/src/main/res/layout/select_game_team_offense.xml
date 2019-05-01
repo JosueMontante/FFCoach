@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="Select Defensive Players" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent">
+
+                    <GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:columnCount="5"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/of_wrr"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_row="2"
+                            android:layout_column="4"
+                            android:text="WR:"
+                            />
+
+                        <Button
+                            android:id="@+id/of_rb"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_row="0"
+                            android:layout_column="2"
+                            android:text="RB:" />
+
+                        <Button
+                            android:id="@+id/of_qb"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_row="1"
+                            android:layout_column="2"
+                            android:text="QB:" />
+
+                        <Button
+                            android:id="@+id/of_wrl"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_row="2"
+                            android:layout_column="0"
+
+                            android:text="WRL:" />
+
+                        <Button
+                            android:id="@+id/of_oll"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_row="2"
+                            android:layout_column="1"
+                            android:text="OL:" />
+
+                        <Button
+                            android:id="@+id/of_center"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_row="2"
+                            android:layout_column="2"
+                            android:text="C:" />
+
+                        <Button
+                            android:id="@+id/of_olr"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_row="2"
+                            android:layout_column="3"
+                            android:text="OL:" />
+
+                    </GridLayout>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/of_player1_r1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R1" />
+
+                            <Button
+                                android:id="@+id/of_player2_r1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R2" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <Button
+                                android:id="@+id/of_player1_r2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R1" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <Button
+                                android:id="@+id/of_player1_r3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R1" />
+
+                            <Button
+                                android:id="@+id/of_player2_r2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="R2" />
+                        </TableRow>
+
+                    </TableLayout>
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/buttonoff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continuar"
+                    android:layout_gravity="bottom"/>
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

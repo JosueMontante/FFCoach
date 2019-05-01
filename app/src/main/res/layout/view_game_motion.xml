@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:background="@color/design_default_color_primary_dark"
+            />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:paddingStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/design_default_color_primary_dark"/>
+
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40:00"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FF0000"
+            android:background="#000"
+
+            android:textSize="40dp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="80dp"
+            android:background="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@color/design_default_color_primary_dark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <Button
+            android:id="@+id/btn_run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D51414"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:text="Run"/>
+
+        <Button
+            android:id="@+id/btn_pitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D51414"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+            android:text="Pitch"/>
+        <Button
+            android:id="@+id/btn_trow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D51414"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:text="Trow"/>
+        <include
+
+            layout="@layout/flag_timeout"></include>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:background="@color/design_default_color_primary_dark"
+        />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:paddingStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/design_default_color_primary_dark"/>
+
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40:00"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FF0000"
+        android:background="#000"
+
+        android:textSize="40dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+
+        android:background="@color/design_default_color_primary_dark"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFFENSE"
+            android:layout_gravity="center"
+            android:background="@drawable/shaper_game"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="5"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/of_wrr"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="4"
+                    android:text="WR:"
+                    />
+
+                <Button
+                    android:id="@+id/of_rb"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:text="RB:" />
+
+                <Button
+                    android:id="@+id/of_qb"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="2"
+                    android:text="QB:" />
+
+                <Button
+                    android:id="@+id/of_wrl"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="0"
+
+                    android:text="WRL:" />
+
+                <Button
+                    android:id="@+id/of_oll"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:text="OL:" />
+
+                <Button
+                    android:id="@+id/of_center"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="2"
+                    android:text="C:" />
+
+                <Button
+                    android:id="@+id/of_olr"
+                    android:layout_width="71dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="3"
+                    android:text="OL:" />
+
+            </GridLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/of_player1_r1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R1" />
+
+                    <Button
+                        android:id="@+id/of_player2_r1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R2" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/of_player1_r2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/of_player1_r3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R1" />
+
+                    <Button
+                        android:id="@+id/of_player2_r2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="R2" />
+                </TableRow>
+
+            </TableLayout>
+
+        </FrameLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Play"
+            android:id="@+id/btnstartplay"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fds"
+                android:layout_gravity="center"/>
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="50"
+                android:thumb="@drawable/ball"
+                />
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st and 10"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:background="@drawable/badred"/>
+        <include
+            layout="@layout/flag_timeout"></include>
+
+    </LinearLayout>
+
+
+</LinearLayout>

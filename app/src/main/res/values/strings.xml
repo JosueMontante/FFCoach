@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WindowsFFCoach</string>
+    <string name="item_string">Team %1$d</string>
+</resources>

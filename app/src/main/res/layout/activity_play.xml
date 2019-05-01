@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:background="@color/design_default_color_primary_dark"
+            />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:paddingStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/design_default_color_primary_dark"/>
+
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40:00"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FF0000"
+            android:background="#000"
+
+            android:textSize="40dp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_height="80dp"
+            android:background="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@color/design_default_color_primary_dark"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+
+
+        >
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rolling"
+
+            android:textSize="30dp"/>
+
+
+            <include
+                android:id="@+id/dos"
+                layout="@layout/view_game_action_pitch"
+                ></include>
+            <include
+                layout="@layout/view_game_action_run"></include>
+            <include
+                layout="@layout/view_game_action_trow"></include>
+
+
+        <include
+            layout="@layout/flag_timeout"></include>
+
+    </LinearLayout>
+
+</LinearLayout>
