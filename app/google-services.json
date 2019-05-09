@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "355399287770",
+    "firebase_url": "https://flagcoach-170c3.firebaseio.com",
+    "project_id": "flagcoach-170c3",
+    "storage_bucket": "flagcoach-170c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355399287770:android:baa0ec2aa6410eb0",
+        "android_client_info": {
+          "package_name": "com.jnova.windowsffcoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355399287770-cq25u9r073da4ak0k9e33iofh2d8sru9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jnova.windowsffcoach",
+            "certificate_hash": "f9c82383269504414bd3f83ebdf3a8fe369912dc"
+          }
+        },
+        {
+          "client_id": "355399287770-bda7f7p9p9q50ho2vvlk2s4ucqecc72o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxIbLayh8gK9-MyVoe5nnUZK3_VBmF8uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355399287770-bda7f7p9p9q50ho2vvlk2s4ucqecc72o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

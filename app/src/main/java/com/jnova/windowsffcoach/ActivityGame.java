@@ -6,10 +6,19 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
-public class ActivityGame extends AppCompatActivity{
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+public class ActivityGame extends AppCompatActivity  {
 
     Button gamestart;
+    String date_time;
+    Calendar calendar;
+    SimpleDateFormat simpleDateFormat;
+    EditText tv_timer;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

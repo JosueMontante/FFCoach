@@ -3,4 +3,74 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="window_background"></color>
+    <color name="content_background"></color>
+    <color name="content_text"></color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="sanguineRed">#F97242</color>
+
+    <color name="carrotOrange">#FA961F</color>
+
+    <color name="seaFoam">#9DBDBE</color>
+
+    <color name="lakeBlue">#5894BC</color>
+    <color name="winterBlue">#9BE7FF</color>
+
+    <color name="agateBlue">#255766</color>
+
+    <color name="purpleDark">#000000</color>
+    <color name="purpleLight">#2D3551</color>
+    <color name="purple">#040E29</color>
+    <color name="purple_87">#DE040E29</color>
+    <color name="purple_54">#8A040E29</color>
+    <color name="purple_38">#61040E29</color>
+
+    <color name="eerieBlack">#111319</color>
+    <color name="raisinBlack">#222222</color>
+    <color name="darkGunmetal">#1D212B</color>
+    <color name="darkGunmetal_87">#DE1D212B</color>
+    <color name="darkGunmetal_54">#8A1D212B</color>
+    <color name="darkGunmetal_38">#611D212B</color>
+    <color name="gunmetal">#2A2F3D</color>
+    <color name="onyx">#333C37</color>
+    <color name="onyx_87">#DE333C37</color>
+    <color name="onyx_54">#8A333C37</color>
+    <color name="onyx_38">#61333C37</color>
+
+    <color name="gray">#9e9e9e</color>
+    <color name="gray_87">#DE9e9e9e</color>
+    <color name="gray_54">#8A9e9e9e</color>
+    <color name="gray_38">#8A9e9e9e</color>
+
+    <color name="lightGray">#F1F1F1</color>
+    <color name="lightGray_87">#F1F1F1</color>
+    <color name="lightGray_54">#8AF1F1F1</color>
+
+    <color name="whiteSmoke">#F5F5F5</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_54">#8AFFFFFF</color>
+    <color name="white_38">#61FFFFFF</color>
+
+    <color name="egg">#F2E6DE</color>
+    <color name="egg_87">#DEF2E6DE</color>
+    <color name="egg_54">#8AF2E6DE</color>
+    <color name="egg_38">#61F2E6DE</color>
+
+    <color name="putty">#C1B8B2</color>
 </resources>

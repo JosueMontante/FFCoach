@@ -1,13 +1,12 @@
-package com.jnova.windowsffcoach;
+package com.jnova.windowsffcoach.adapter;
 
-import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jnova.windowsffcoach.files.CardData;
+import com.jnova.windowsffcoach.R;
 import com.jnova.windowsffcoach.models.CardsModel;
 
 import java.util.ArrayList;

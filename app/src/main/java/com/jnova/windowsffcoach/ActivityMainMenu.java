@@ -20,7 +20,7 @@ public class ActivityMainMenu extends AppCompatActivity {
         game.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ActivityMainMenu.this,SelectTeamActivity.class));
+                startActivity(new Intent(ActivityMainMenu.this,ActivitySelectTeam.class));
             }
         });
 

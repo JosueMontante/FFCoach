@@ -21,9 +21,11 @@
         android:background="@color/design_default_color_primary_dark"/>
 
 
-    <TextClock
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType="time"
+        android:id="@+id/tv_timer"
         android:text="40:00"
         android:layout_marginLeft="20dp"
         android:textColor="#FF0000"

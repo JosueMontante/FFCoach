@@ -21,7 +21,7 @@ public class SelectTeamActivity extends AppCompatActivity   {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_team);
 
-        RecyclerView rvTeams = findViewById(R.id.recycler_team);
+        RecyclerView rvTeams = findViewById(R.id.recycler_teamerf);
         btn = findViewById(R.id.btn_selectteam);
         teams = Team.createteamlist(6);
         MyrecyclerTeams adapter = new MyrecyclerTeams(teams);

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/padding_20">
+
+    </corners>
+    <stroke
+        android:width="2dp"
+        android:color="@color/white">
+    </stroke>
+    <padding android:top="15dp" android:bottom="15dp" android:left="15dp" android:right="15dp">
+
+    </padding>
+    <gradient android:startColor="@color/btn_logut_bg"
+        android:endColor="@color/btn_logut_bg">
+
+    </gradient>
+</shape>

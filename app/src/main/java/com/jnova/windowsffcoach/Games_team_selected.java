@@ -6,6 +6,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.jnova.windowsffcoach.adapter.CustomAdapter;
 import com.jnova.windowsffcoach.files.CardData;
 import com.jnova.windowsffcoach.models.CardsModel;
 

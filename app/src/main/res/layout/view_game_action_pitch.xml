@@ -1,52 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:padding="@dimen/padding_8"
     android:orientation="vertical"
-    android:background="#000000"
+    android:background="@color/darkGunmetal_38"
     android:id="@+id/layout_pitch"
+    android:layout_gravity="center"
+    android:gravity="center|top"
     >
+    <include
+
+        layout="@layout/timer_view"></include>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Pitch"
+        android:textSize="@dimen/padding_40"
+        />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+>
         <Button
             android:id="@+id/btn_inter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
             android:text="Intercepted"
-            android:layout_weight=".5"/>
+            android:layout_weight="50"
+            android:backgroundTint="@color/sanguineRed"
+            />
         <Button
             android:id="@+id/btn_dropp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/input_register_bg"
             android:text="Dropped"
-            android:layout_weight=".5"
             />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/btn_run"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Run"
-            android:layout_weight=".5"/>
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="50"
+            android:text="Run" />
         <Button
             android:id="@+id/btn_tackle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
             android:text="Tackled"
             android:clickable="false"
-            android:layout_weight=".5"
+            android:layout_weight="50"
             />
     </LinearLayout>
     <Button
         android:id="@+id/td"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/design_default_color_primary_dark"
         android:text="Touchdown"/>
 
